@@ -24,7 +24,7 @@ class App extends React.Component {
           <div className="content-wrapper">
             <div className="title-container">
               <h1>Discover</h1>
-              <h3>New from all over the world</h3>
+              <h3>News from all over the world</h3>
             </div>
             <Menu handleClick={this.handleClick} topics={this.state.newsTopics} currentId={this.state.currentId}/>
           </div>
